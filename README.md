@@ -1,6 +1,4 @@
-# Security Triage Dataset Tools
-
-This folder contains a dataset of security tickets and the tools used to manage, validate, and fix them. Everything here is designed to help an AI (the **SecTriageBot**) learn how to handle security alerts.
+This folder contains a dataset of security tickets and the tools used to manage, validate, and fix them. Everything here is designed to help an AI (the **LLM Ticket **) learn how to handle security alerts.
 
 ## Files and What They Do
 
@@ -27,10 +25,3 @@ If the checker finds mistakes, this script fixes them! It goes through the datas
 **The Error Report**  
 When you run the checker (`validate_tickets.py`), it saves a list of every single mistake it found into this file. It’s useful for seeing exactly what went wrong before running the fix.
 
----
-
-## How to use them
-If you want to make sure the dataset is perfect:
-1. Run `python3 validate_tickets.py` to see if there are errors.
-2. If it's not 100% accurate, run `python3 fix_tickets.py`.
-3. Run the validator again to confirm everything is fixed!
