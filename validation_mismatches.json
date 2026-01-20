@@ -1,0 +1,35 @@
+[
+  {
+    "line": 36,
+    "ticket_id": "SEC-34914",
+    "expected": "Confirmed",
+    "actual": "Open",
+    "rotation_status": "Active/Valid",
+    "repo_type": "Prod Microservice",
+    "usage": "Unable to verify",
+    "criticality": "Low (P3 - Sandbox)",
+    "past_incidents": "Recurring issue in this repo"
+  },
+  {
+    "line": 118,
+    "ticket_id": "SEC-15544",
+    "expected": "Confirmed",
+    "actual": "Open",
+    "rotation_status": "Active/Valid",
+    "repo_type": "Monolith Core",
+    "usage": "No usage found (90d+)",
+    "criticality": "Low (P3 - Sandbox)",
+    "past_incidents": "Recurring issue in this repo"
+  },
+  {
+    "line": 443,
+    "ticket_id": "SEC-93692",
+    "expected": "False Positive",
+    "actual": "Confirmed",
+    "rotation_status": "Active/Valid",
+    "repo_type": "Test/QA Suite",
+    "usage": "Active usage in CloudTrail/Logs (Last 1h)",
+    "criticality": "Medium (P2 - Internal)",
+    "past_incidents": "Frequent False Positives in this file"
+  }
+]
