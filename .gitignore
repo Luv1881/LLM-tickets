@@ -1,0 +1,14 @@
+# Ignore the implementation folder
+src/
+
+# Ignore environment variables
+.env
+**/.env
+
+# Ignore temporary/report files
+validation_mismatches.json
+**/validation_mismatches.json
+
+# Ignore Python cache
+__pycache__/
+*.pyc
